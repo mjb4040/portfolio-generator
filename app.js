@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const fs = require('fs');
 
 const generatePage = require('./src/page-template.js');
@@ -25,7 +25,7 @@ const profileDataArgs = process.argv.slice(2, process.argv.length);
 //     // Is the same as this...
 //     profileDataArr.forEach(profileItem => console.log(profileItem));
 // }
-=======
+
 const profileDataArgs = process.argv.slice(2, process.argv.length);
 console.log(profileDataArgs);
 
@@ -41,15 +41,11 @@ const printProfileData = profileDataArr => {
     // Is the same as this...
     profileDataArr.forEach(profileItem => console.log(profileItem));
 }
->>>>>>> bf6b72cffb9539997b78fa231af43b8d847ec674
+
 
     // profileDataArr.forEach((profileItem) => {
     //   console.log(profileItem)
 //     });
-<<<<<<< HEAD
+
 //  };
-
-
-=======
 //   };
->>>>>>> bf6b72cffb9539997b78fa231af43b8d847ec674
